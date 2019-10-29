@@ -1,0 +1,166 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/jjmartinez/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  overflow: scroll;
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+  background: #F5F5DC;
+  color: #096FFA;
+  /*color: #096FFA;*/
+}
+
+/* HEADER PRINCIPAL*/
+#headerPrincipal {
+  background: #F47920;
+  margin-left: 20px;
+  margin-right: 20px; 
+  border-radius: 0.5em;
+  background: url('../img/header.png') no-repeat;
+}
+
+/*OPCIONES DEL HEADER DE OPCIONES*/
+#headerOpciones {
+  background: #005883;
+  margin-left: 20px;
+  width: auto;
+  height: 60px;
+  margin-right: 20px; 
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+#headerOpciones ul{
+  display: flex;
+  list-style: none;
+}
+
+#headerOpciones ul li a{
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+#headerOpciones ul ul{
+  display: block;
+  background: #2A607A;
+  position: absolute;
+  top: 185px;
+  border-radius: 0.5em;
+  transform: translateX(60%);
+  opacity: 0;
+  transition: all .6s;
+}
+
+#headerOpciones ul li:hover ul{
+  opacity: 1;
+  transform: translate(0%);
+}
+
+#listaOpcionesPrincipales{
+     display:inline;
+     /*padding-left:20px;
+     padding-right:20px;*/
+     cursor:pointer;
+}
+
+
+footer {
+  background: #F9BD1E;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 0.5em;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-shadow: 5px 5px 10px rgba(244,244,244,0.5);
+}
+
+h2 {
+  font-family: Lucida Fax;
+  font-size: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+h3 {
+  font-family: Helvetica;
+  color: #030303;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  font-family: Helvetica;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: Helvetica;
+  color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+
+
+  
+
+a { 
+  color: #FFFF00; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
